@@ -1,0 +1,130 @@
+.left{
+    color: white;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.left img{
+    margin: -13px;
+    width: 110px;
+    height: 115px;
+    cursor: pointer;
+}
+
+/* .left div{
+    cursor: pointer;
+} */
+
+.btn{
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #A88448;
+    padding: 7px;
+    margin: 12px;
+}
+
+.btn:hover{
+    font-family: 'Edu TAS Beginner', cursive;
+    text-decoration: underline;
+    color: white;
+}
+
+
+.right{
+    position: absolute ;
+    color: white;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background: url(/Images/dodge-viper-gts-557090896df23.jpg);
+    height: 1048px;
+}
+
+.navbar{
+  /* border: 2px solid red; */
+  display: block;
+  width: 35%;
+  margin: 12px auto;
+  
+
+
+    /* background: black; */
+    /* border-radius: 45px; */
+}
+
+h3{
+    cursor: pointer;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: underline;
+
+}
+
+.cars{
+    display: inline-block;
+    position: relative;
+    padding-inline-start: 52px;
+    left: 50px;
+    top: -40px;
+}
+
+.price{
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    position: relative;
+    left: -223px;
+    top: -11px;
+    color: white;
+    width: 147px
+}
+
+.price:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    font-size: medium;
+    display: inline-block;
+    list-style: none;
+    padding: 12px;
+    margin: 20px
+    
+    
+
+
+
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover, .navbarli a:active{
+    text-decoration: underline;
+    color: white;
+}
